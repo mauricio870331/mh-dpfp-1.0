@@ -139,19 +139,34 @@ https://drive.google.com/drive/folders/1U_P6h7sJfjW6INqFMnS3HeJ9DAgnIcdy?usp=sha
 
 1. Abre el programa plugin biometrico, diligencia los campos en el formulario de configuración
 
-Url Api: es la url de tu proyecto que apunta hacia las rutas de api, ejemplo:
-http://localhost/tu-projecto/public/api o http://tu-dominio.xx/api
+    Url Api: es la url de tu proyecto que apunta hacia las rutas de api, ejemplo:
+    http://localhost/tu-projecto/public/api o http://tu-dominio.xx/api
 
-Para obtener el token ve a la ruta de tu proyecto: home_dpfp y da click en el link "Create Token"
+    Para obtener el token ve a la ruta de tu proyecto: home_dpfp y da click en el link "Create Token"
 
-![ConfigForm](capturas/CrearToken.png)
+    ![ConfigForm](capturas/CrearToken.png)
 
-![ConfigForm](capturas/Token.png)
+    ![ConfigForm](capturas/Token.png)
 
 
-Token Pc: es el token que se genera 
+    Token Pc: es el token que se generado desde el tu aplicacion web.
 
-![ConfigForm](capturas/ConfigForm.png)
+    ![ConfigForm](capturas/ConfigForm.png)
+
+    
+    Usuario y Password: Son las credenciales que codificaste un paso mas arriba, el apartado 'Modificar archivo .env'
+    para este ejemplo son:
+
+    Usuario: tu_usuario
+    Password: tupass
+
+    Ahora presiona el boton con el icono de guardar, el plugin se reiniciara automaticamente y si todo ha quedado 
+    bien configurado ya puedes comenzar a enrolar y verificar las huellas de tus usuarios.
+
+
+Espero que este paquete te ayude en tus proyectos :)
+
+    
 
 
 

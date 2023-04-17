@@ -40,8 +40,7 @@
                     "src/js",
                     "src/views",
                     "src/images",
-                    "src/layout",
-                    "src/plugin_biometrico"
+                    "src/layout"
                 ]
             },
             "assets": {

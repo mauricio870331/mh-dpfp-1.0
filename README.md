@@ -120,6 +120,12 @@ public function fingerprints() {
 }
 ```
 
+## Descargar el plugin biometrico solo para windows
+
+Descarga el instalador del plugin biometrico desde el siguiente enlace:
+https://drive.google.com/drive/folders/1U_P6h7sJfjW6INqFMnS3HeJ9DAgnIcdy?usp=share_link
+
+
 ## Información Importante:
 
 Recuerda publicar el acceso directo a "storage" para que se puedan almacenar las huellas de los usuarios,
@@ -127,6 +133,8 @@ para ello ejecuta el comando:
 ```php  
 php artisan storage:link
 ```
+
+
 
 
 

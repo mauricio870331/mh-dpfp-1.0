@@ -1,0 +1,58 @@
+{
+    "name": "mhtutorials/dpfp4500",
+    "description": "Biometria FingerPrint-4500",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Mauricio Herrera",
+            "email": "mauricio.herrera.ajc@gmail.com"
+        }
+    ],    
+    "license": "MIT",    
+    "minimum-stability": "stable",   
+    "autoload": {
+        "psr-4": {
+            "mhtutorials\\dpfp4500\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "mhtutorials\\dpfp4500\\Providers\\ServiceProvider"
+            ],            
+            "migrations": [
+                "database/migrations"
+            ],
+            "models": [
+                "src/Models"
+            ],
+            "controllers": [
+                "src/Controllers"
+            ],
+            "views": [
+                "src/views"
+            ],
+            "publish": {
+                "mhtutorials\\dpfp4500": [
+                    "src/Models",
+                    "src/Controllers",
+                    "src/css",
+                    "src/js",
+                    "src/views",
+                    "src/images",
+                    "src/layout",
+                    "src/plugin_biometrico"
+                ]
+            },
+            "assets": {
+                "src/js/funciones.js": "public/dpfp/js/funciones.js",
+                "src/js/jquery-1.7.2.min.js": "public/dpfp/js/jquery-1.7.2.min.js",
+                "src/js/reloj.js": "public/dpfp/js/reloj.js",
+                "src/js/SweetAlert2.js": "public/dpfp/js/SweetAlert2.js"
+            }            
+        }
+    },
+    "post-install-cmd": [
+        "php artisan mhtutorials/dpfp4500:migrate"
+    ]
+}

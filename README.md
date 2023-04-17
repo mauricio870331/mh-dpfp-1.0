@@ -158,7 +158,7 @@ https://drive.google.com/drive/folders/1U_P6h7sJfjW6INqFMnS3HeJ9DAgnIcdy?usp=sha
     ![ConfigForm](capturas/ConfigForm.png)
 
     
-    Usuario y Password: Son las credenciales que codificaste un paso mas arriba, en el apartado 'Modificar archivo .env'
+    Usuario y Password: Son las credenciales que codificaste un paso mas arriba, en el apartado 'Modificar archivo .env',
     para este ejemplo son:
 
     Usuario: tu_usuario

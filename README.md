@@ -89,6 +89,9 @@ NOTA: Esta clave se configurará posteriormente en el plugin biometrico.
 2. Copia y pega las rutas a continuacion en tu archivo routes/web.php
 
     ```php  
+    Route::get('/home_dpfp', function () {
+        return view('dpfp_views/home_dpfp');
+    });
     //Finger
     Route::get('/users/verify-users', [UserRestApiController::class, 'verify_users'])->name('verify-users');
     Route::get('/users', [UserRestApiController::class, 'users_list'])->name('users_list');
@@ -134,7 +137,21 @@ php artisan storage:link
 Descarga el instalador del plugin biometrico desde el siguiente enlace:
 https://drive.google.com/drive/folders/1U_P6h7sJfjW6INqFMnS3HeJ9DAgnIcdy?usp=share_link
 
-![ConfigForm](ConfigForm.png)
+1. Abre el programa plugin biometrico, diligencia los campos en el formulario de configuración
+
+Url Api: es la url de tu proyecto que apunta hacia las rutas de api, ejemplo:
+http://localhost/tu-projecto/public/api o http://tu-dominio.xx/api
+
+Para obtener el token ve a la ruta de tu proyecto: home_dpfp y da click en el link "Create Token"
+
+![ConfigForm](capturas/CrearToken.png)
+
+![ConfigForm](capturas/Token.png)
+
+
+Token Pc: es el token que se genera 
+
+![ConfigForm](capturas/ConfigForm.png)
 
 
 

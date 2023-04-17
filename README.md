@@ -57,14 +57,14 @@ NOTA: Esta clave se configurará posteriormente en el plugin biometrico.
 
 ## Agregar Rutas api
 
-1. Copia los imports a continuacion en tu archivo routes/api.php
+1. Copia los imports a continuación en tu archivo routes/api.php
 
     ```php  
     use App\Http\Controllers\DpfpApi\UserRestApiController;
     use App\Http\Controllers\DpfpApi\SseController;
     ```
 
-2. Copia y pega las rutas a continuacion en tu archivo routes/api.php
+2. Copia y pega las rutas a continuación en tu archivo routes/api.php
 
     ```php  
     //SensorRestApi
@@ -82,14 +82,14 @@ NOTA: Esta clave se configurará posteriormente en el plugin biometrico.
 
 ## Agregar Rutas web
 
-1. Copia los import a continuacion en tu archivo routes/web.php
+1. Copia los import a continuación en tu archivo routes/web.php
 
     ```php  
     use App\Http\Controllers\DpfpApi\UserRestApiController;
     use App\Http\Controllers\DpfpApi\TempFingerprintController;
     ```
 
-2. Copia y pega las rutas a continuacion en tu archivo routes/web.php
+2. Copia y pega las rutas a continuación en tu archivo routes/web.php
 
     ```php 
     // Ruta Home del paquete 
@@ -130,7 +130,7 @@ public function fingerprints() {
 ## Información Importante:
 
 Recuerda publicar el acceso directo a "storage" para que se puedan almacenar las huellas de los usuarios,
-para ello ejecuta el comando a continuacion:
+para ello ejecuta el comando a continuación:
 ```php  
 php artisan storage:link
 ```

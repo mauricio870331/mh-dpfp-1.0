@@ -31,7 +31,7 @@ Para ello ejecuta el siguiente comando en tu terminal:
 ## Agregar configuración al archivo config/services.php
 
 Copiar la clave "mhdpfp" en el archivo config/services.php de tu aplicación.
-En esta configuracion se almacenará la clave de api para que el pluguin pueda
+En esta configuración se almacenará la clave de api para que el pluguin pueda
 conectarse a los servicios de tu proyecto laravel.
 
 NOTA: si tu archivo ya contiene otras claves puedes agregarla al final como una clave mas del array
@@ -169,6 +169,7 @@ https://drive.google.com/drive/folders/1U_P6h7sJfjW6INqFMnS3HeJ9DAgnIcdy?usp=sha
     para este ejemplo son:
 
     Usuario: tu_usuario
+
     Password: tupass
 
     Ahora presiona el boton con el icono de guardar, el plugin se reiniciara automaticamente y si todo ha quedado 

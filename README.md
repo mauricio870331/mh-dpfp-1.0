@@ -116,7 +116,7 @@ NOTA: Esta clave se configurará posteriormente en el plugin biometrico.
 
 2. Modifica los campos 'image' y  'fingerprint' de tipo blob a longblob en la tabla: temp_fingerprint
 
-3. Modifica el campo 'fingerprint' de tipo blob a longblob en la tabla: fingerprints
+3. Modifica el campo 'fingerprint' de tipo blob a longblob en la tabla: fingerprints 
 
 
 ## Agrega la relación de huellas al modelo User.php

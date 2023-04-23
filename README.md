@@ -1,9 +1,9 @@
 ## DPFP 4500 Para Laravel
 Lector de huella FP 4500 Digital Persona
 
-<!--[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Latest Stable Version](https://poser.pugx.org/mhtutorials/dpfp4500/v)](https://packagist.org/packages/mhtutorials/dpfp4500)
-[![Total Downloads](https://poser.pugx.org/mhtutorials/dpfp4500/downloads)](https://packagist.org/packages/mhtutorials/dpfp4500)-->
+[![Total Downloads](https://poser.pugx.org/mhtutorials/dpfp4500/downloads)](https://packagist.org/packages/mhtutorials/dpfp4500)
 <!-- [![Latest Stable Version](https://poser.pugx.org/mhtutorials/dpfp4500/v/stable)](https://packagist.org/packages/mhtutorials/dpfp4500)-->
 
 

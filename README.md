@@ -114,7 +114,7 @@ NOTA: Esta clave se configurará posteriormente en el plugin biometrico.
        php artisan migrate
     ```
 
-2. Modifica 'fingerprint' de tipo blob a longblob en la tabla: temp_fingerprint
+2. Modifica los campos 'image' y  'fingerprint' de tipo blob a longblob en la tabla: temp_fingerprint
 
 3. Modifica el campo 'fingerprint' de tipo blob a longblob en la tabla: fingerprints
 

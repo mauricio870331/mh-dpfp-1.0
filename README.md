@@ -1,8 +1,3 @@
-## En desarrollo
-
-Este paquete aún está en desarrollo y no se recomienda su uso en entornos de producción.
-
-
 ## DPFP 4500 Para Laravel
 Lector de huella FP 4500 Digital Persona
 

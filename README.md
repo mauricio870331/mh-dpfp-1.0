@@ -158,7 +158,7 @@ https://drive.google.com/drive/folders/1U_P6h7sJfjW6INqFMnS3HeJ9DAgnIcdy?usp=sha
     ![ConfigForm](capturas/Token.png)
 
 
-    Token Pc: es el token que se ha generado desde el tu aplicacion web.
+    Token Pc: es el token que se ha generado desde tu aplicacion web.
 
     ![ConfigForm](capturas/ConfigForm.png)
 
@@ -170,11 +170,11 @@ https://drive.google.com/drive/folders/1U_P6h7sJfjW6INqFMnS3HeJ9DAgnIcdy?usp=sha
 
     Password: tupass
 
-    Ahora presiona el boton con el icono de guardar, el plugin se reiniciara automaticamente y si todo ha quedado 
+    Ahora presiona el botón con el icono de guardar, el plugin se reiniciara automaticamente y si todo ha quedado 
     bien configurado ya puedes comenzar a enrolar y verificar las huellas de tus usuarios.
 
 
-Espero que este paquete te ayude en tus proyectos :)
+    Espero que este paquete te ayude en tus proyectos :)
 
     
 

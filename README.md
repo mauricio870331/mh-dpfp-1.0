@@ -10,6 +10,9 @@ Lector de huella FP 4500 Digital Persona
 ## Video Tutorial
 https://www.youtube.com/c/MauricioHerrera0822
 
+## Pre-Requisitos
+CRUD de usuarios funcional en tu aplicación laravel.
+
 
 ## Instalación
 

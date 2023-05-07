@@ -57,7 +57,7 @@ esta ultima será la clave que debes configurar.
 Puedes ir a la pagina: https://www.base64encode.org/, copia tu_usuario:tupass y da click en el botón
 "ENCODE", el resultado seria: dHVfdXN1YXJpbzp0dXBhc3M=
 
-NOTA: Esta clave se configurará posteriormente en el plugin biometrico.
+NOTA: Estas credenciales se configurarán posteriormente en el plugin biometrico.
 
 
 ## Agregar Rutas api

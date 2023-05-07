@@ -101,7 +101,7 @@ NOTA: Esta clave se configurará posteriormente en el plugin biometrico.
     Route::get('/home_dpfp', function () {
         return view('dpfp_views/home_dpfp');
     });
-    //Rutaspara interactuar con el plugin
+    //Rutas para interactuar con el plugin
     Route::get('/users/verify-users', [UserRestApiController::class, 'verify_users'])->name('verify-users');
     Route::get('/users', [UserRestApiController::class, 'users_list'])->name('users_list');
     Route::get("/users/{user}/finger-list", [UserRestApiController::class, "fingerList"])->name("finger-list");
